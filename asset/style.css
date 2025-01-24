@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    min-height: 100vh; 
+    background-color: hsl(217, 54%, 11%);
+} 
+
+.card{
+    border-radius: 5px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    width: 350px;
+    font-family: "Outfit", serif;
+    color: white;
+    box-shadow: 1px 1px 20px #000000;
+}
+
+.card img:hover{
+    filter: saturate(5) hue-rotate(320deg);
+    
+}
+
+h1{
+    font-weight: 600;
+    font-size: 28px;
+    margin:20px 0;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h2{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.value{
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.ETH{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ETH img{
+    width: 12px;
+    height: 20px;
+ }
+
+ .days{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+hr{
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.avatar img{
+    width: 40px;
+    border-radius: 50%;
+    border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+
+.avatar p{
+    font-weight: 200;
+    color:hsl(215, 58%, 74%);
+}
+
+.avatar strong{
+    font-weight: 500;
+}
+
+.avatar strong:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
+.attribution p{
+    font-size: 8px;
+    color: white;
+    padding-top: 10px;
+    font-family: "Outfit", serif;
+}
+
+.attribution a{
+    font-size: 8px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: "Outfit", serif;
+}
+
+@media (min-width:376px) {
+.card{
+    width: 280px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 16px;
+}
+.avatar p{
+    font-size: 12px;
+}
+}
